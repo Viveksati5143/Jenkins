@@ -7,7 +7,6 @@ pipeline {
         string(name: 'person', defaultValue: 'Vivek Sati', description: "Who are you?")
         booleanParam(name: 'isMale', defaultValue: true, description: "")
         choice(name: 'City', choices: ['Jaipur','Mumbai','Pune'], description: "")
-
     }
 
     stages {
